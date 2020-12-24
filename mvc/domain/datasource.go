@@ -11,7 +11,7 @@ var (
 
 func init() {
 	var err error
-	dsn := "host=localhost user=primz password=primz@2207 dbname=primz port=5432 sslmode=disable TimeZone=Asia/Kolkata"
+	dsn := "host=localhost user=xxxx password=xxxx@2207 dbname=xxxx port=5432 sslmode=disable TimeZone=Asia/Kolkata"
 	dbClient, err = gorm.Open(postgres.Open(dsn), &gorm.Config{})
 	if err != nil {
 		panic(err)
